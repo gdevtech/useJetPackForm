@@ -19,6 +19,12 @@ export const MainContent = styled.main`
     padding: 2em;
     background-color: ${color.green};
     box-shadow: -2px -1px 18px 2px rgb(0 0 0 / 41%);
+    h1 {
+      color: ${color.lightGrey};
+    }
+    p {
+      color: ${color.lightGrey};
+    }
   }
   @media screen and (min-width: ${breakpoint.tablet}) {
     flex-direction: row;
